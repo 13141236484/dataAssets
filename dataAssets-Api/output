@@ -1,0 +1,24 @@
+nohup: ignoring input
+
+> knowlege-api@1.0.0 start /var/www/project/bigDataSystem/interfaceService
+> NODE_ENV=development ./node_modules/.bin/nodemon bin/run.js
+
+[33m[nodemon] 1.17.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node bin/run.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! knowlege-api@1.0.0 start: `NODE_ENV=development ./node_modules/.bin/nodemon bin/run.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the knowlege-api@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/lenovo2/.npm/_logs/2018-03-16T02_03_49_222Z-debug.log

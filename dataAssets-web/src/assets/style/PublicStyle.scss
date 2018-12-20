@@ -1,0 +1,212 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; color:#2f2e34;font-family: 黑体;}
+body, button, input, select, textarea { font-size: 14px; }
+body {
+    min-width: 1024px;
+}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:14px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; color: #2f2e34;}
+a:hover,a:visited,a:active,a:focus { text-decoration:none; color: #2f2e34;}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+/*Element UI 修改样式*/
+.el-dropdown{
+    color: #fff;
+}
+/*面包屑箭头*/
+.Crumbs-arrowhead {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff6600;
+}
+.Crumbs-item {
+    font-size: 16px;
+    color: #2f2e34;
+}
+.Crumbs-level {
+    font-size: 14px;
+    color: #ff6600;
+}
+/*搜索功能区*/
+.yellow-button {
+    background: #ff6600;
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}
+.white-button {
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: #2f2e34;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.white-button:hover {
+    background: #ff6600;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ff6600;
+}
+.Functional{
+    width: 100%;
+    margin: 20px 0;
+    height:28px;
+}
+
+.Functional-right {
+    float:right;
+    margin-top:3px;
+
+}
+/*表格style*/
+.el-table th,.el-table td{
+    text-align: center;
+}
+.el-table thead th{
+    padding: 6px 0;
+    background: #2f2e34;
+    color: white;
+}
+.el-table td {
+    padding: 8px 0;
+}
+
+/*分页*/
+.pagination-page {
+    padding: 20px 0;
+    text-align: right;
+}
+
+/*对话框*/
+.el-dialog__header {
+    position: relative;
+}
+.el-dialog__header:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    height: 20px;
+    top: 22px;
+    left: 24px;
+    background: #ff6600;
+}
+.el-dialog__title {
+    margin-left: 20px;
+}
+.el-dialog__header {
+    text-align: left;
+}
+.el-dialog__body .el-form {
+    background: #dddddd63;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.el-dialog--center .el-dialog__body {
+    padding-top: 6px;
+}
+.el-form-item {
+    margin-bottom: 0;
+}
+.el-dialog__body {
+    padding:20px 20px;
+}
+/*input框*/
+.Functional .el-input,.Functional-1 .el-input {
+    width: 160px;
+}
+.input-margin {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+/*table 切换*/
+.el-tabs__nav-wrap::after {
+    height: 0;
+}
+.el-tabs__header{
+    margin-top: 15px;
+}
+.el-tabs__item.is-active {
+    color: #ff6600;
+}
+.el-tabs__active-bar {
+    background-color: #ff6600;
+}
+
+/*滚动条 X轴隐藏*/
+.context-box-scroll .el-scrollbar__wrap,
+.Tabs-context-area .el-scrollbar__wrap,
+.context-box-content-scrollbar .el-scrollbar__wrap,
+.context-box-content-scrollbar1 .el-scrollbar__wrap,
+.context-box-content-scrollbar2 .el-scrollbar__wrap{
+    overflow-x: hidden;
+}
+
+/*多选框按钮的margin*/
+.context-box-content-scrollbar .el-checkbox {
+    margin: 10px;
+}
+
+/*tag 标签页*/
+.el-tag {
+    margin: 10px;
+}
+.el-tag .el-icon-close {
+    //color: #ffffff;
+}
+.RelationProcess .el-tag{
+    margin-right: 10px;
+    margin-left:0;
+}
+
+.el-button--warning {
+    background: #ff6600;
+    border-color: #ff6600;
+}
+/*Icon的颜色*/
+.el-icon-tickets {
+    color: #ff6600;
+}
+
+/*标示符单选框位置*/
+.Function-Marking .el-radio-group{
+    vertical-align: inherit;
+}
+
+//上传input框的隐藏
+input[type=file] {
+    display: none;
+}
+
+/* form 表单tip样式*/
+.el-form-tip {
+    p {
+        line-height:20px;
+        font-size: 12px;
+        color: #606266;
+    }
+}
+.el-form-tip {
+    font-size: 12px;
+    color: #ff6600;
+}
+
+//文本域
+.context-area .el-textarea__inner {
+    height: 300px;
+}
+
+//ie下Input框默认样式隐藏
+input::-ms-clear,input::-ms-reveal{display:none;}

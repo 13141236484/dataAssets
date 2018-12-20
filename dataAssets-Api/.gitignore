@@ -1,0 +1,11 @@
+.idea
+node_modules/
+logs/*
+docs/*
+yaml/*
+excel/*
+conifg/
+.pip
+.DS_Stroe
+fileTxt
+
